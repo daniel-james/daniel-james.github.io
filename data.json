@@ -1,0 +1,26 @@
+{
+	"Personal": {
+		"Name": "Daniel JC Fisher",
+		"Address": "3/2 Ferryroad Drive,Edinburgh,EH44BD",
+		"Telephone": "07765518666",
+		"E-mail": "daniel.james@mailbox.org"
+	},
+	"Education": [
+		{
+			"Institution": "University of St Andrews",
+			"Degree": "B.Sc (Hons), Sustainable Development 2011",
+			"Details": "With specialization in Computer Science (Internet Computer Science track)"
+		},
+		{
+			"Institution": "Strode College",
+			"Degree": "A-Levels (Politics A., Philosophy A., Computing A.)",
+			"Details": "AS-Levels (Psychology, Business Studies, Critical Thinking)",
+			"Degree": "GNVQ in ICT (Distinction)"
+		}
+	],
+	"Awards": {
+		"Title": "Best Artificial Intelligence",
+		"Award": "Graham Technology Prize for University of St Andrews Robocode Competition",
+		"Date": "May 2007"
+	}
+}
