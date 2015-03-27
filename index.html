@@ -18,7 +18,7 @@
 <body>
 
   <script type='text/x-handlebars' data-template-name='application'>
-    <div class='navbar navbar-default'>
+    <nav class='navbar navbar-default'>
       <div class='container'>
         {{#link-to 'index' class='navbar-brand'}}DJCF{{/link-to}}
         <ul class='nav navbar-nav navbar-right'>
@@ -29,8 +29,8 @@
       </div>
     </div>
 
+    <h1 class='emphbox'>The <i>Curriculum Vit&aelig;</i> of Daniel JC Fisher</h1>
     <main class="container" role="main">
-      <h1>The <i>Curriculum Vit&aelig;</i> of Daniel JC Fisher</h1>
       <div class='container'>
         {{outlet}}
       </div>
@@ -60,14 +60,13 @@
     <div class='row'>
         <div class='col-md-4'>
           <h2>{{{skills.title}}}</h2>
-          <h4>Extensive hardware and software experience in networking and information
-technology.</h4>
+          <h4>{{skills.blurb}}</h4>
         </div>
         <div class='col-md-8'>
           {{#each skill in skills.skills}}
             <p><em>{{skill.type}}:</em> {{skill.details}}</p>
           {{/each}}
-          {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+          {{#link-to next.link class='next'}} <emph>Next:</emph> {{next.text}} &rArr; {{/link-to}}
         </div>
       </div>
   </script>
@@ -81,7 +80,8 @@ technology.</h4>
       </div>
       <div class='col-md-8'>
         {{{details}}}
-        {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+        <p class='emphbox'>Currently accepting new contracts.</p>
+        {{#link-to next.link class='next'}} <emph>Next:</emph> {{next.text}} &rArr; {{/link-to}}
       </div>
     </div>
   </script>
@@ -101,7 +101,7 @@ technology.</h4>
       </div>
       <div class='col-md-8 details'>
         {{{blurb}}}
-        {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+        {{#link-to next.link class='next'}} <emph>Next:</emph> {{next.text}} &rArr; {{/link-to}}
       </div>
     </div>
   </script>
@@ -126,7 +126,7 @@ technology.</h4>
       </div>
       <div class='col-md-8 details'>
         {{{positionSection.details}}}
-        {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+        {{#link-to next.link class='next'}} <emph>Next:</emph> {{next.text}} &rArr; {{/link-to}}
       </div>
     </div>
   </script>
