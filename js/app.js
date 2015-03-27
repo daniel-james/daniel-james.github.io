@@ -5,7 +5,6 @@ App.fromURL = "https://raw.githubusercontent.com/djcf/djcf.github.io/master/data
 Ember.$.getJSON("data.json").then(function(data) {
   App.dat = data;
   App.dat.fetched = new Date();
-});
 
 /*App.dat = {
   "Index": {
@@ -129,4 +128,6 @@ App.ApplicationController = Ember.Controller.extend({
   year: function() {
     return (new Date()).getFullYear();
   }.property()
+});
+
 });
