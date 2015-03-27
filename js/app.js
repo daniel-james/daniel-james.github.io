@@ -2,7 +2,7 @@ var App = Ember.Application.create({
   LOG_TRANSITIONS: true
 });
 App.fromURL = "https://raw.githubusercontent.com/djcf/djcf.github.io/master/data.json";
-Ember.$.getJSON(App.fromURL).then(function(data) {
+Ember.$.getJSON("data.json").then(function(data) {
   App.dat = data;
   App.dat.fetched = new Date();
 });
