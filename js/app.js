@@ -1,11 +1,20 @@
-{
+var App = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});
+App.fromURL = "https://raw.githubusercontent.com/djcf/djcf.github.io/master/data.json";
+Ember.$.getJSON(App.fromURL).then(function(data) {
+  App.dat = data;
+  App.dat.fetched = new Date();
+});
+
+/*App.dat = {
   "Index": {
     "section": "About Me",
     "name": "Daniel JC Fisher",
     "picture": "assets/profilesq.jpg",
     "email": "daniel.james@mailbox.org",
     "blurb": "Professional software developer, living in Edinburgh.",
-    "details": "<p>I live in Edinburgh where I'm passionate about good software principles and design. I'm not satisfied unless I'm learning a new, better way to do something&mdash;that's why I make it my goal to always add at least one new tool to my toolbox with every project that I attempt. Because there's nothing more satisfying than knowing from experience that you're using the right tool for the job.</p><p>I have a proven ability to meet deadlines, I speak plainly and simply, and I'm very, very good at breaking down a complex problem into the kind of simple steps anyone can follow and understand. <a href='https://www.flickr.com/photos/anarcocurious/'>I also have a fairly awesome sideline in photography</a>, though software is my main passion. I like cats, long walks, and nature. I have been described as 'sharp as a pin' on more than one occasion. I'm also passionate about open-source software: what it can do for you, what it can do for me, and why it is so important to all of our lives.</p><p>I hope to one day learn Clojure/Lisp, but I haven't found the right project for that particular hammer yet.</p><p class='large'>I'm self-employed and currently accepting new contracts.</p>",
+    "details": "<p>I live in Edinburgh where I'm passionate about good software principles and design. I'm not satisfied unless I'm learning a new, better way to do something &mdash; that's why I make it my goal to always add at least one new tool to my toolbox with every project that I attempt. Because there's nothing more satisfying than knowing from experience that you're using the right tool for the job.</p><p>I have a proven ability to meet deadlines, I speak plainly and simply, and I'm very, very good at breaking down a complex problem into the kind of simple steps anyone can follow and understand. <a href='https://www.flickr.com/photos/anarcocurious/'>I also have a fairly awesome sideline in photography</a>, though software is my main passion. I like cats, long walks, and nature. I have been described as 'sharp as a pin' on more than one occasion. I'm also passionate about open-source software: what it can do for you, what it can do for me, and why it is so important to all of our lives.</p><p>I hope to one day learn Clojure/Lisp, but I haven't found the right project for that particular hammer yet.</p><p class='large'>I'm self-employed and currently accepting new contracts.</p>",
     "next": {
       "link": "Experience",
       "text": "see my skills and experience"
@@ -88,4 +97,36 @@
       "text": "learn about my academic qualifications"
     }
   }
+};*/
+
+App.Router.map(function() {
+  this.route('data');
+  for(var key in App.dat) {
+    this.route(key);
+  }
+});
+
+App.DataController = Ember.Controller.extend({
+  data: JSON.stringify(App.dat),
+  url: App.fromURL,
+  section: "Raw data",
+  time: App.fetched.toUTCString().property()
+});
+
+linksArray = Array();
+for(var key in App.dat) {
+  linksArray.push(key);
+  properties = Array();
+  Ember.$.each(eval("App.dat."+key), function(kkey,v) {
+    properties.push(kkey + ": " + JSON.stringify(v))
+  });
+  console.log("App." + key + "Controller = Ember.ObjectController.extend({" + properties + "});");
+  eval("App." + key + "Controller = Ember.ObjectController.extend({"+ properties + "});");
 }
+
+App.ApplicationController = Ember.Controller.extend({
+  links: linksArray,
+  year: function() {
+    return (new Date()).getFullYear();
+  }.property()
+});
