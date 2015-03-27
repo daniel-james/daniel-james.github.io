@@ -66,7 +66,7 @@ App.dat = {
       },{
         "title": "Employee Management Application",
         "blurb": "For the Event Safety Alliance",
-        "details": "<p>ESA requested a full-stack employee management solution and web portal for their business. The web application kept track of relevant employee data including health records, employment history, dietary requirements, and personal information to print reports for relevent shift supervisors and assist with financial and shift tracking. It did so using best practices recommended for web applications, including notable design patterns such as model-view-controller and active record.</p> <p><em>Technologies used:</em> The LAMP stack, JQuery, and CakePhP.</p>"
+        "details": "<p>ESA requested a full-stack employee management solution and web portal for their business. The web application kept track of employee data including health records, employment history, dietary requirements, and personal information to print reports for relevant shift supervisors and assist with financial and shift tracking. It did so using best practices recommended for web applications, including notable design patterns such as model-view-controller and active record.</p> <p><em>Technologies used:</em> The LAMP stack, JQuery, and CakePhP.</p>"
       },{
         "title": "Bespoke Desktop Application",
         "blurb": "For the Event Safety Alliance",
