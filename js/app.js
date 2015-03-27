@@ -4,7 +4,7 @@ var App = Ember.Application.create({
 App.fromURL = "https://raw.githubusercontent.com/djcf/djcf.github.io/master/data.json";
 Ember.$.getJSON("data.json").then(function(data) {
   App.dat = data;
-  App.dat.fetched = new Date();
+  App.dat.fetched = new Date().toUTCString();
 
 /*App.dat = {
   "Index": {
@@ -109,7 +109,7 @@ App.DataController = Ember.Controller.extend({
   data: JSON.stringify(App.dat),
   url: App.fromURL,
   section: "Raw data",
-  time: App.fetched.toUTCString().property()
+  time: App.fetched
 });
 
 linksArray = Array();
