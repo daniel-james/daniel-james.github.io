@@ -11,7 +11,7 @@ App.dat = {
     "section": "About Me",
     "name": "Daniel JC Fisher",
     "picture": "assets/profilesq.jpg",
-    "blurb": "Software developer, living in Edinburgh.",
+    "blurb": "Software engineer, living in Edinburgh.",
     "details": "<p>I'm a software developer with principal experience tying together front-end technologies such as typical web stack of Javascript and associated technologies and frameworks such as Ember and JQuery and templating languages like JADE, LESS and HAML with the back-end systems, typically LAMP/PhP, Ruby (on Rails) and Node.</p><p>I live in Edinburgh where I'm passionate about good software principles and design. I'm not satisfied unless I'm learning a new, better way to do something &mdash; that's why I make it my goal to always add at least one new tool to my toolbox with every project that I attempt. Because there's nothing more satisfying than knowing from experience that you're using the best tool for the job.</p><p>I have a proven ability to meet deadlines, I speak plainly and simply, and I'm very, very good at breaking down a complex problem into the kind of simple steps anyone can follow and understand. <a href='https://www.flickr.com/photos/anarcocurious/'>I also have a fairly awesome sideline in photography</a>, though software is my main passion. I like cats, long walks, and nature. I have been described as 'sharp as a pin' on more than one occasion. I'm also passionate about open-source software: what it can do for you, what it can do for me, and why it is so important to all of our lives.</p>",
     "next": {
       "link": "Experience",
