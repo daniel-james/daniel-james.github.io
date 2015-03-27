@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link href='css/style.css' rel='stylesheet'>
+
+  <title>DJCF CV</title>
+
+  <script src='js/jquery.js'></script>
+  <script src='js/handlebars.js'></script>
+  <script src='js/ember.js'></script>
+  <script src='js/ember-data.js'></script>
+  <script src='js/applive.js'></script>
+</head>
+<body>
+
+  <script type='text/x-handlebars' data-template-name='application'>
+    <div class='navbar navbar-default'>
+      <div class='container'>
+        {{#link-to 'index' class='navbar-brand'}}DJCF{{/link-to}}
+        <ul class='nav navbar-nav navbar-right'>
+          {{#each link in links}}
+            {{#link-to link tagName='li'}}<a href>{{link}}</a>{{/link-to}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+
+    <main class="container" role="main">
+      <h1>The <i>Curriculum Vit&aelig;</i> of Daniel JC Fisher</h1>
+      <div class='container'>
+        {{outlet}}
+      </div>
+    </main>
+
+    <footer class='container'>
+      <hr>
+      <p class='pull-left'>&copy; {{year}} Daniel JC Fisher</p>
+      <p class='pull-right'>Made with love in <a href="http://emberjs.com">Ember.js</a>. View {{#link-to 'data'}}Raw Data{{/link-to}}</p>
+    </footer>
+  </script>
+
+  <script type='text/x-handlebars' data-template-name='experience'>
+    <h2>{{{experience.title}}}</h2>
+    {{#each example in experience.examples}}
+      <div class='row'>
+        <div class='col-md-4'>
+          <h3>{{example.title}}</h3>
+          <h4>{{example.blurb}}</h4>
+        </div>
+        <div class='col-md-8'>
+          {{{example.details}}}
+        </div>
+      </div>
+    {{/each}}
+
+    <div class='row'>
+        <div class='col-md-4'>
+          <h2>{{{skills.title}}}</h2>
+          <h4>Extensive hardware and software experience in networking and information
+technology.</h4>
+        </div>
+        <div class='col-md-8'>
+          {{#each skill in skills.skills}}
+            <p><em>{{skill.type}}:</em> {{skill.details}}</p>
+          {{/each}}
+          {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+        </div>
+      </div>
+  </script>
+
+  <script type='text/x-handlebars' data-template-name='index'>
+    <h2>{{section}}</h2>
+    <div class='row'>
+      <div class='col-md-4'>
+        <img {{bind-attr src=picture}} class='profile' alt='Me at work'>
+        <h4 style='width: 80%'>{{blurb}}</h4>
+      </div>
+      <div class='col-md-8'>
+        {{{details}}}
+        {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+      </div>
+    </div>
+  </script>
+
+  <script type='text/x-handlebars' data-template-name='education'>
+    <h2>{{section}}</h2>
+    <div class='row'>
+      <div class='col-md-4'>
+        <h3>{{{university.institution}}}</h3>
+        <h4>{{{university.degree}}}</h4>
+        <ul><li>{{{university.details}}}</li></ul>
+        <hr width='25%'>
+        <h3>{{{school.institution}}}</h3>
+        <h4>{{{school.degree}}}</h4>
+        <ul><li>{{{school.details}}}</li></ul>
+        <h4>{{{school.degree2}}}</h4>
+      </div>
+      <div class='col-md-8 details'>
+        {{{blurb}}}
+        {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+      </div>
+    </div>
+  </script>
+
+  <script type='text/x-handlebars' data-template-name='awards'>
+    <h2>{{awardSection.section}}</h2>
+    <div class='row'>
+      <div class='col-md-4'>
+        <h3>{{awardSection.title}}</h3>
+        <h4>{{awardSection.award}}</h4>
+      </div>
+      <div class='col-md-8 details'>
+        {{{awardSection.details}}}
+      </div>
+    </div>
+      <hr width='50%' style='margin: 30px auto;'>
+    <h2>{{positionSection.section}}</h2>
+    <div class='row'>
+      <div class='col-md-4'>
+        <h3>{{{positionSection.title}}}</h3>
+        <h4>{{positionSection.when}}</h4>
+      </div>
+      <div class='col-md-8 details'>
+        {{{positionSection.details}}}
+        {{#link-to next.link class='next'}} Why not {{next.text}} next? &rArr; {{/link-to}}
+      </div>
+    </div>
+  </script>
+
+  <script type='text/x-handlebars' data-template-name='data'>
+    <h2>{{section}}</h2>
+    <p><i>Retrieved from {{url}} at {{time}}</i></p>
+    <tt>{{data}}</tt>
+  </script>
+
+</body>
+</html>
