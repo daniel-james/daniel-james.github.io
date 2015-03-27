@@ -2,11 +2,11 @@ var App = Ember.Application.create({
   LOG_TRANSITIONS: true
 });
 App.fromURL = "https://raw.githubusercontent.com/djcf/djcf.github.io/master/data.json";
-Ember.$.getJSON("data.json").then(function(data) {
-  App.dat = data;
-  App.fetched = new Date().toUTCString();
+//Ember.$.getJSON("data.json").then(function(data) {
+//  App.dat = data;
+App.fetched = new Date().toUTCString();
 
-/*App.dat = {
+App.dat = {
   "Index": {
     "section": "About Me",
     "name": "Daniel JC Fisher",
@@ -56,7 +56,6 @@ Ember.$.getJSON("data.json").then(function(data) {
       "link": "data",
       "text": "see the raw data (fetched over AJAX) which was used to construct this SPA since you've come this far"
     }
-   
   },
   "Experience": {
     "experience": {
@@ -96,7 +95,7 @@ Ember.$.getJSON("data.json").then(function(data) {
       "text": "learn about my academic qualifications"
     }
   }
-};*/
+};
 
 App.Router.map(function() {
   this.route('data');
@@ -128,6 +127,4 @@ App.ApplicationController = Ember.Controller.extend({
   year: function() {
     return (new Date()).getFullYear();
   }.property()
-});
-
 });
