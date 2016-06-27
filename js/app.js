@@ -21,20 +21,20 @@ App.dat = {
   "Education": {
     "section": "Academic Qualifications",
     "university": {
-      "institution": "University of St Andrews",
-      "degree": "B.Sc (Hons), Sustainable Development 2011",
-      "details": "With specialization in Computer Science (Internet Computer Science track)"
+      "institution": "<a href='https://www.st-andrews.ac.uk/' target='_top'>University of St Andrews</a>",
+      "degree": "<a href='https://www.st-andrews.ac.uk/gsd/courses/ug/sd/' target='_top'>B.Sc (Hons), Sustainable Development 2011</a>",
+      "details": "<a href='http://www.cs.st-andrews.ac.uk/prospective-ug/degrees' target='_top'>With specialization in Computer Science (Internet Computer Science track)</a>"
     },
     "school": {
-      "institution": "Strode College",
+      "institution": "<a href='http://www.strode-college.ac.uk/' target='_top'>Strode College</a>",
       "degree": "A-Levels (Politics A., Philosophy A., Computing A.)",
       "details": "AS-Levels (Psychology, Business Studies, Critical Thinking)",
       "degree2": "GNVQ in ICT (Distinction)"
     },
-    "blurb": "The University of St Andrews provided an ideal scholastic environment for me to develop my computing skills, something I had always wanted to do. As the University also provided a more 'American'-style liberal arts environment, I also benefited by diversifying my interests at this time and switched to the Sustainable Development programme half-way through my degree. The SD programme is structured like a join degree and students take credits from both that School and a partner School, in my case Computer Science. I was thus able to benefit by skipping modules in Database Design and Software Engineering which I felt I had better covered outside of the course and today I have greatly benefited from the elective modules this choice was able to afford me. The most useful things I learnt were confidence reading manuals and documentation and, from many networking classes, to never, ever trust the network.",
+    "blurb": "For most people, a university degree is nothing but a piece of paper to a better quality of life. I saw it differently. I was passionate&mdash;passionate about making a different, passionate about sustainable change, and passionate about learning. I wanted to be at the fore-front of social change&mdash;and that's why I started the Permaculture Society and the Transition St Andrews group, and chaired OneWorld, the largest and most active student campaigning group in the University at the time. But it was the degree course, a joint honours programme with Computer Science, which taught me the real values which continue to be relevent to me today: values like the holistic approach to integrated systems, stakeholder dialogue, and consensus, all of which are relevent to my work daily.",
     "next": {
       "link": "Awards",
-      "text": "hear about the time I made a battlefield AI and served in the University Senate"
+      "text": "Award and Achievements"
     }
   },
   "Awards": {
@@ -60,17 +60,17 @@ App.dat = {
     "experience": {
       "title": "Recent Experience",
       "examples": [{
-        "title": "Dev/Ops Specialist",
+        "title": "Development and Operations Specialist",
         "blurb": "DJCF Design",
-        "details": "<p>As a sole trader I am, of course, responsible for orchestrating the technical direction for all new projects, and deciding and then implementing new technologies and practices. I am also responsible for overall technical project design and architecture within the systems I deploy for clients, as well as all development and support. My customers mainly include small businesses and other sole traders.</p>"
+        "details": "<p>Dev/Ops. Everyone's talking about it. Some people even claim to offer it. But how many people are actually doing it? From container-based applications to automatic monitoring and deployments, my main expertise lies with helping you understand your systems and deploy them more effectively./p>"
+      },{
+        "title": "CommonSpace Lead Engineer",
+        "blurb": "A ground-breakingly innovative, socially-aware media portal",
+        "details": "<p>When people have problems, I'm the one they tend to call. That's why when the CommonWeal realised they had been mis-sold a faulty, unlicenced and badly-fit-for-purpose system, they asked me to take on the case. I knew they'd come to the right place.</p><p>Working tirelessly, I lead a small team to re-engineer their systems from the ground up. After refitting their server, saving them money in the process, I set to task working with their stakeholders to design and implement a revolutionary social media and media publishing platform tailored around their unique needs. When we were ready, 12 months later, to finally launch the system, it took Scotland by storm."
       },{
         "title": "Employee Management Application",
         "blurb": "For the Event Safety Alliance",
-        "details": "<p>ESA requested a full-stack employee management solution and web portal for their business. The web application kept track of employee data including health records, employment history, dietary requirements, and personal information to print reports for relevant shift supervisors and assist with financial and shift tracking. It did so using best practices recommended for web applications, including notable design patterns such as model-view-controller and active record.</p> <p><em>Technologies used:</em> The LAMP stack, JQuery, and CakePhP.</p>"
-      },{
-        "title": "Bespoke Desktop Application",
-        "blurb": "For the Event Safety Alliance",
-        "details": "<p>ESA also requested an electronic logging system to record radio traffic for use in out-of-band locations. Our solution was ad-hoc network-accessible, easy-to-use and deploy, and ran on all common operating systems.</p><p><em>Technologies used</em>: Java, RMI, and the Swing GUI toolkit.</em> "
+        "details": "<p>Although I'll always prefer working for the grassroots and the third sector, many of my clients <i>are</i> small businesses and sole traders. When ESA requested a full-stack employee management solution and web portal for their business. The web application kept track of employee data including health records, employment history, dietary requirements, and personal information to print reports for relevant shift supervisors and assist with financial and shift tracking. It did so using best practices recommended for web applications, including notable design patterns such as model-view-controller and active record.</p> <p><em>Technologies used:</em> The LAMP stack, JQuery, and CakePhP.</p>"
       }]
     },
     "skills": {
@@ -78,16 +78,16 @@ App.dat = {
       "blurb": "Extensive hardware and software experience in networking and information technology.",
       "skills": [{
         "type": "Server-side Programming",
-        "details": "I have experience building full-stack applications with PhP (using CakePhP), Java and Node.JS using the Sails/Express framework."
+        "details": "I have extensive experience building full-stack applications with PhP (assisted by frameworks as diverse as Drupal and Wordpress to CakePhP), Java, Ruby and Node.JS. I'm most at home when facing tough technical challenges calling for innovative and unusual solutions needed in hair-raisingly tight deadlines."
       }, {
         "type": "Client-side Programming",
-        "details": "I consider myself proficient in Javascript, JQuery, Ember.js (this SPA was written in Ember), CoffeeScript, SASS/SCSS, HAML, LESS and JADE."
+        "details": "I am extremely proficient in Javascript, JQuery, Ember.js (this SPA was written in Ember), CoffeeScript, SASS/SCSS, HAML, LESS and JADE."
       }, {
         "type": "Common Web Frameworks",
         "details": "Extensive experience developing software for content-management systems and frameworks including Drupal and Wordpress."
       }, {
-        "type": "Operating Systems, Administration and Software Suites",
-        "details": "I am fully at home using and administering Linux (Ubuntu/Fedora preferable), Mac OSX and Microsoft Windows and I have recent experience administering Linux- and Windows-based network services of many kinds, including file- and print-servers such as Windows Server and Samba, using heterogeneous-client networks. I also have experience administering multi-user web and mail servers (using Debian) scaling to hundreds of users. This includes the full set of common Linux services including Squid and Apache. I can also use Latex, Adobe Photoshop, Microsoft Office, and other common productivity packages for Windows, OS X, and Linux platforms."
+        "type": "Operating Systems, Administration.",
+        "details": "I am fully at home using and administering Linux and Unix-like systems as these make up the bulk of computers on the web today. I prefer container-based fully-isolated application infrastructures like Docker, and I love working with the full scope of management tools which allow today's web-scale systems to function effectively."
       }]
     },
     "next": {
