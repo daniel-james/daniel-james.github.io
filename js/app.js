@@ -11,8 +11,8 @@ App.dat = {
     "section": "About Me",
     "name": "Daniel JC Fisher",
     "picture": "assets/profilesq.jpg",
-    "blurb": "Software engineer, living in Edinburgh.",
-    "details": "<p>I'm a software developer with principal experience tying together front-end technologies such as typical web stack of Javascript and associated technologies and frameworks such as Ember and JQuery and templating languages like JADE, LESS and HAML with the back-end systems, typically LAMP/PhP, Ruby (on Rails) and Node.</p><p>I live in Edinburgh where I'm passionate about good software principles and design. I'm not satisfied unless I'm learning a new, better way to do something &mdash; that's why I make it my goal to always add at least one new tool to my toolbox with every project that I attempt. Because there's nothing more satisfying than knowing from experience that you're using the best tool for the job.</p><p>I have a proven ability to meet deadlines, I speak plainly and simply, and I'm very, very good at breaking down a complex problem into the kind of simple steps anyone can follow and understand. <a href='https://www.flickr.com/photos/anarcocurious/'>I also have a fairly awesome sideline in photography</a>, though software is my main passion. I like cats, long walks, and nature. I have been described as 'sharp as a pin' on more than one occasion. I'm also passionate about open-source software: what it can do for you, what it can do for me, and why it is so important to all of our lives.</p>",
+    "blurb": "Software engineer, living in Edinburgh but eager to travel.",
+    "details": "<p>Passionate about software. Passionate about people. Passsionate about you.</p><p>I've always believed that technology can help bring about lasting social change. But how many people understand the complexity of today's software development lifecycle? How many people can offer bespoke software applications tailored to the needs of emerging grassroots movements? Not many.</p><p>I believe in balancing simplicity and elegance with useful functionality that reflects the values of inclusivity, collaboration, and stakeholdership. I believe in getting things done ahead of time and ahead of budget, and in rapid iteration cycles as your needs develop.</p><p>But what about you? You are innovative, stategic, and dynamic. You need someone who understands those qualities. Someone who doesn't say 'What?' when you ask them about the latest web technology. You need someone who is already using those tools and fully understands their strengths and weaknesses. From PhP to Node.JS, from Wordpress to Drupal, from HAML and SASS to LESS and Jade, and from Virtual Box to Docker, you need a full-stack dev/ops specialist.</p><p>I am that person.</p>",
     "next": {
       "link": "Experience",
       "text": "see my skills and experience"
@@ -60,7 +60,7 @@ App.dat = {
     "experience": {
       "title": "Recent Experience",
       "examples": [{
-        "title": "Freelancer",
+        "title": "Dev/Ops Specialist",
         "blurb": "DJCF Design",
         "details": "<p>As a sole trader I am, of course, responsible for orchestrating the technical direction for all new projects, and deciding and then implementing new technologies and practices. I am also responsible for overall technical project design and architecture within the systems I deploy for clients, as well as all development and support. My customers mainly include small businesses and other sole traders.</p>"
       },{

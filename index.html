@@ -56,19 +56,21 @@
         </div>
       </div>
     {{/each}}
+    {{#link-to next.link class='next'}} <emph>Next:</emph> {{next.text}} &rArr; {{/link-to}}
+  </script>
 
+  <script type='text/x-handlebars' data-template-name='skills'>
+    <h2>{{{skills.title}}}</h2>
     <div class='row'>
-        <div class='col-md-4'>
-          <h2>{{{skills.title}}}</h2>
-          <h4>{{skills.blurb}}</h4>
-        </div>
-        <div class='col-md-8'>
-          {{#each skill in skills.skills}}
-            <p><em>{{skill.type}}:</em> {{skill.details}}</p>
-          {{/each}}
-          {{#link-to next.link class='next'}} <emph>Next:</emph> {{next.text}} &rArr; {{/link-to}}
-        </div>
+      <div class='col-md-4'>
+        <h4>{{skills.blurb}}</h4>
       </div>
+      <div class='col-md-8' style='padding-top: 26px;'>
+        {{#each skill in skills.skills}}
+          <p><em>{{skill.type}}:</em> {{skill.details}}</p>
+        {{/each}}
+      </div>
+    </div>
   </script>
 
   <script type='text/x-handlebars' data-template-name='index'>
