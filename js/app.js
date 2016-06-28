@@ -64,9 +64,9 @@ App.dat = {
         "blurb": "DJCF Design",
         "details": "<p>Dev/Ops. Everyone's talking about it. Some people even claim to offer it. But how many people are actually doing it? From container-based applications to automatic monitoring and deployments, my main expertise lies with helping you understand your systems and deploy them more effectively.</p>"
       },{
-        "title": "CommonSpace Lead Engineer",
+        "title": "<a href='https://www.commonspace.scot' target='_top'>CommonSpace Lead Engineer</a>",
         "blurb": "A ground-breakingly innovative, socially-aware media portal",
-        "details": "<p>When people have problems, I'm the one they tend to call. That's why when the CommonWeal realised they had been mis-sold a faulty, unlicenced and badly-fit-for-purpose system, they asked me to take on the case. I knew they'd come to the right place.</p><p>Working tirelessly, I lead a small team to re-engineer their systems from the ground up. After refitting their server, saving them money in the process, I set to task working with their stakeholders to design and implement a revolutionary social media and media publishing platform tailored around their unique needs. When we were ready, 12 months later, to finally launch the system, it took Scotland by storm.</p> <p><em>Core technologies used:</em> Drupal, Docker, CiviCRM, and other integrational areas like LDAP, AJAX and Python.</p>"
+        "details": "<p>When people have problems, I'm the one they tend to call. That's why when the <a href='https://www.allofusfirst.scot' target='_top'>CommonWeal</a> realised they had been mis-sold a faulty, unlicenced and badly-fit-for-purpose system, they asked me to take on the case. I knew they'd come to the right place.</p><p>Working tirelessly, I lead a small team to re-engineer their systems from the ground up. After refitting their server, saving them money in the process, I set to task working with their stakeholders to design and implement a revolutionary social media and media publishing platform tailored around their unique needs. When we were ready, 12 months later, to finally launch the system, it took Scotland by storm.</p> <p><em>Core technologies used:</em> Drupal, Docker, CiviCRM, and other integrational areas like LDAP, SSO, AJAX and Python.</p>"
       },{
         "title": "Employee Management Application",
         "blurb": "For the Event Safety Alliance",
@@ -81,13 +81,13 @@ App.dat = {
         "details": "I have extensive experience building full-stack applications with PhP (assisted by frameworks as diverse as Drupal and Wordpress to CakePhP), Java, Ruby and Node.JS. I'm most at home when facing tough technical challenges calling for innovative and unusual solutions needed in hair-raisingly tight deadlines."
       }, {
         "type": "Client-side Programming",
-        "details": "I am extremely proficient in Javascript, JQuery, Ember.js (this SPA was written in Ember), CoffeeScript, SASS/SCSS, HAML, LESS and JADE."
+        "details": "I am extremely proficient with Javascript, including JQuery, Ember.js (this SPA was written in Ember), CoffeeScript, SASS/SCSS, HAML, LESS, JADE and other related technologies."
       }, {
         "type": "Common Web Frameworks",
         "details": "Extensive experience developing software for content-management systems and frameworks including Drupal and Wordpress."
       }, {
         "type": "Operating Systems, Administration.",
-        "details": "I am fully at home using and administering Linux and Unix-like systems as these make up the bulk of computers on the web today. I prefer container-based fully-isolated application infrastructures like Docker, and I love working with the full scope of management tools which allow today's web-scale systems to function effectively."
+        "details": "In my spare time, I help run a community-based grassroots-focused ISP and their fleet of Linux servers which I have helped modernize and update. As a result, I am fully at home with Linux and Unix-like systems as these make up the bulk of computers on the web today. I prefer container-based fully-isolated application infrastructures like Docker, and I love working with the full scope of management tools which allow today's web-scale systems to function effectively."
       }]
     },
     "next": {
