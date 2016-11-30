@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/djcf
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://djcf.io
+  * I am djcf (https://keybase.io/djcf) on keybase.
+  * I have a public key with fingerprint 12F8 0299 17DC DC88 16E9  7D56 E6BC 45B1 70D8 BDCE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101594f0230f743dbc3198cac29fafc9526121ec09c4c61743b6bc75655662c0cd10a",
+            "fingerprint": "12f8029917dcdc8816e97d56e6bc45b170d8bdce",
+            "host": "keybase.io",
+            "key_id": "e6bc45b170d8bdce",
+            "kid": "0101594f0230f743dbc3198cac29fafc9526121ec09c4c61743b6bc75655662c0cd10a",
+            "uid": "0e4d6c9ce3f9bbb42a158e5b7205af19",
+            "username": "djcf"
+        },
+        "service": {
+            "hostname": "djcf.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1480526725,
+    "expire_in": 157680000,
+    "prev": "b30b555af65ecc56c740ae8cabf3af58eecaa80f2ee3c47d83af129e43ad3c2d",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - http://gpgtools.org
+
+owGtUntQVFUcXmAxHkuSPEpNxCsFJeJ9797NeC6MGTDVjkk8Zrv33HPhIu5ed+8i
+GzqmA4KpZBRpAeOgFDkFGWg+EHQKxhgY4jGD+CpLHrIDzTCC5jhaZ9Vm+qM/O/+c
+Ob/zfd/5vt/5HQjy0QR4TZxL/U4Z7ej36p0SNFkJgZWlmGATXZixFNsEH22wSIQO
+1bJJFjEjhhM4wXC0hJMULulpShQARXAGwAOSk3gJcAzJEiQBAc4BGrAEggisAPQM
+yzAsSwIciATOY7GYJFvzoV2xy1YVyRKkZMBJjiP0IhCBwUCwkNOLDAsRl2YEQo+L
+BkEEEBELbA4PA5kTeAeMk22ohg6WR/b+A/8/+3Y+loO0yAIOQEriBEGgSZ5gDJAR
+9CTO8BLBeYAOaLfymyFCi4VAwrbHYqhSLCNTqKmeFP+6fRxDsdtUG7AVoWKBqipG
+D0d1KR7QVihYntAtgmwVUfcQoRjaHbLNihkJhASq7NEjaAOOwuhJJhaDJYpshxbZ
+g2D0rAFHy/MMLEaSAoULDIPssgwEgGFBpp7GeYh6IkgUL6E8EPC8AZdICClA60UD
+qhIkB2mKFylAipgn0RarDTOip1Q+H2k65HwrrzrtENsesMd7m1bjFaCRfL09c2UJ
+fV+DVpwmRnY4nNC+WlLsiVabyqsogSPOpkCrkq/ESbKkFhTY7A64mbfGWaFKkGlP
+RsOUYkrxjEYqpzcxbCqbnEIzyeirTYZkU0qqJsA/+J9h/sYnWFNZ3kXOR/0W8TB6
+rjsja3VzffjOQ5nFJ25uzKwrQ57zmtqG1M6xuusN2UORy6jALW8lrI9K7FrzwjO/
+nqZ0XybVvukO2e2a/GKgvl3pMee92LsiW7qbBCi2QvfsYe3svdyjxpCWnhzl5yxV
+xC1e4Tsf3OKqehbeT5j0G3x+Pu7WpZmwmPKTd9iJP8bG/EzvvqN9varTr2F/d11S
+U3xh35Gt9QM/HfFuTlwZFWReu3D/YJJ5IDT5fPDepIrZ9M/93l53+VjtSPyr1d3c
+VNGGda+crjk7fG7ZxTOjRFpHdUYLHaI1N/qWZO7Wqf5t05q2ryPdHfsWe7l3Db4c
+2zhvX3zZR1e5tDm98eO+8pMFd3QGV2MObq7+fkar+WTHZ/17Kgact+N34Tmu8Zht
+muMND94oMgUMXPh2h3vJ+PozVH+hHHrth4fa+1Vroq/45BhDP82NCPgzlyu1/fVR
+Q9nIpasRTSFnNb/33+upNbsOlFbdnr8Q/VrfYfO5Vt8eVld2vjTMWT03HNa5YG/8
+8alTi04tXxqeP1M02JEzTV4Unu492OqY3VDS17pkbkVfrHQzb9WNSe2i9qDsYeEp
+332uH51X3gs2Ppe+8uqx3hsj12tW+USmJU98GN61MUxp1QWeqEz+Sh41uyfGw1uG
+aX2Gf0370ZcWrA3+JabKHVR3cPaD+KG7k9PmQ9d8yxP+Bg==
+=j1t4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/djcf
+
+==================================================================
